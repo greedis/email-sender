@@ -8,7 +8,7 @@ use App\Jobs\SendMailJob;
 use App\Models\SentMail;
 use Illuminate\Support\Str;
 
-class MailController extends Controller
+class MailController
 {
     public function index()
     {
